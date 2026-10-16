@@ -1,0 +1,20 @@
+package {
+    default_applicable_licenses: ["external_antlr_license"],
+}
+
+license {
+    name: "external_antlr_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-BSD",
+    ],
+    license_text: [
+        "NOTICE",
+    ],
+}
+
+java_import {
+    name: "antlr-runtime",
+    jars: ["lib64/antlr-runtime.jar"],
+    host_supported: true,
+}

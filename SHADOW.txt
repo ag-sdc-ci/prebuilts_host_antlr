@@ -1,0 +1,5 @@
+shadow prebuilt repo: antlr (host)
+  upstream package: antlr-runtime v3.5.3, Maven Central / ANTLR v3 Java Runtime
+  api-level: universal (JVM bytecode host library)
+  layout: lib64/antlr-runtime.jar; Android.bp providing antlr-runtime
+  date: 2026-10-16
